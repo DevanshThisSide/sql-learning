@@ -24,8 +24,17 @@
 
 sql-learning/
 ├── README.md
-├── fundamentals.sql
-└── alter.sql
+├── 01-fundamentals.sql
+├── 02-alter.sql
+├── 03-select.sql
+├── 04-where.sql
+├── 05-logical-operators.sql
+├── 06-comparison-operators.sql
+├── 07-order-by.sql
+├── 08-limit-offset.sql
+├── 09-alias.sql
+├── 10-distinct.sql
+└── 11-functions.sql
 
 ## 🗃️ Practice Databases
 
@@ -44,6 +53,14 @@ EmployeeDB
 ├── employees
 └── departments
 
+### Other Practice Databases
+
+- CompanyDB
+- StoreDB
+- ElectronicsDB
+- DuplicatesDB
+- StringFunctionsDB
+
 ## 📚 Topics Covered
 
 - SQL & MySQL fundamentals
@@ -58,9 +75,18 @@ EmployeeDB
 - `WHERE`
 - `ORDER BY`
 - `DISTINCT`
-- `LIMIT`
-- Comparison and logical operators
-- `IN`, `BETWEEN`, `LIKE`
+- `LIMIT` & `OFFSET`
+- Column and table aliases
+- Comparison operators
+- Logical operators
+- `IN`
+- `BETWEEN`
+- `LIKE`
+- String functions
+- Aggregate functions
+- Subqueries
+- `GROUP BY`
+- `UNION`
 
 ## 🛠️ Tools
 
