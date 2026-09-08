@@ -8,58 +8,57 @@
 |---|---|
 | Database & SQL Fundamentals | ✅ Completed |
 | CRUD Operations | 🟡 In Progress |
-| Filtering & Operators | 🟡 In Progress |
-| Aggregate Functions | ⬜ Not Started |
-| Constraints | ⬜ Not Started |
-| Joins | ⬜ Not Started |
+| Filtering & Operators | ✅ Completed |
+| Aggregate Functions | ✅ Completed |
+| Constraints | 🟡 In Progress |
+| Joins | 🟡 In Progress |
 | Subqueries | ⬜ Not Started |
-| Functions | ⬜ Not Started |
-| Normalization & Database Design | ⬜ Not Started |
+| Functions | ✅ Completed |
+| Normalization & Database Design | ✅ Completed |
 | Views & Indexes | ⬜ Not Started |
 | Transactions & ACID | ⬜ Not Started |
 | Advanced SQL | ⬜ Not Started |
-| SQL Problem Solving | ⬜ Not Started |
+| SQL Problem Solving | 🟡 In Progress |
 
 ## 📂 Repository Structure
 
 sql-learning/
+
 ├── README.md
+
 ├── 01-fundamentals.sql
+
 ├── 02-alter.sql
+
 ├── 03-select.sql
+
 ├── 04-where.sql
+
 ├── 05-logical-operators.sql
+
 ├── 06-comparison-operators.sql
+
 ├── 07-order-by.sql
+
 ├── 08-limit-offset.sql
+
 ├── 09-alias.sql
+
 ├── 10-distinct.sql
-└── 11-functions.sql
 
-## 🗃️ Practice Databases
+├── 11-functions.sql
 
-### CollegeDB
+├── 12-groupby-having.sql
 
-CollegeDB
-└── student
-    ├── student_id
-    ├── name
-    ├── age
-    └── course
+├── 13-primary-keys.sql
 
-### EmployeeDB
+├── 14-foreign-keys.sql
 
-EmployeeDB
-├── employees
-└── departments
+├── 15-normalization.sql
 
-### Other Practice Databases
+├── 16-inner-join.sql
 
-- CompanyDB
-- StoreDB
-- ElectronicsDB
-- DuplicatesDB
-- StringFunctionsDB
+└── 17-left-join.sql
 
 ## 📚 Topics Covered
 
@@ -67,6 +66,8 @@ EmployeeDB
 - Databases, tables, rows and columns
 - Data types and `NULL`
 - Primary keys
+- Foreign keys
+- Referential integrity
 - `CREATE`, `USE`, `SHOW`, `DROP`
 - `ALTER TABLE`
 - `INSERT`
@@ -83,10 +84,31 @@ EmployeeDB
 - `BETWEEN`
 - `LIKE`
 - String functions
+- Numeric functions
+- Date and time functions
 - Aggregate functions
-- Subqueries
+- `COUNT()`
+- `SUM()`
+- `AVG()`
+- `MIN()`
+- `MAX()`
 - `GROUP BY`
-- `UNION`
+- `HAVING`
+- `INNER JOIN`
+- `LEFT JOIN`
+- Join conditions using `ON`
+- Filtering joined data
+- Aggregation with joins
+- 1NF
+- 2NF
+- 3NF
+- 4NF
+- 5NF
+- Functional dependencies
+- Partial dependencies
+- Transitive dependencies
+- Multivalued dependencies
+- Join dependencies
 
 ## 🛠️ Tools
 
