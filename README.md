@@ -12,10 +12,10 @@
 | Aggregate Functions | ✅ Completed |
 | Constraints | 🟡 In Progress |
 | Joins | 🟡 In Progress |
-| Subqueries | 🟡 In Progress |
+| Subqueries | ✅ Completed |
 | Functions | ✅ Completed |
 | Normalization & Database Design | ✅ Completed |
-| Views & Indexes | ⬜ Not Started |
+| Views & Indexes | 🟡 In Progress |
 | Transactions & ACID | ⬜ Not Started |
 | Advanced SQL | 🟡 In Progress |
 | SQL Problem Solving | 🟡 In Progress |
@@ -43,7 +43,11 @@ sql-learning/
 ├── 16-inner-join.sql
 ├── 17-left-join.sql
 ├── 18-right-join.sql
-└── 19-union.sql
+├── 19-union.sql
+├── 20-full-join.sql
+├── 21-cross-join.sql
+├── 22-self-join.sql
+└── 23-subqueries.sql
 
 ## 📚 Topics Covered
 
@@ -101,10 +105,12 @@ sql-learning/
 - Multi-row subqueries
 - Correlated subqueries
 - `IN` with subqueries
+- `NOT IN` with subqueries
 - `EXISTS`
 - `NOT EXISTS`
 - Derived tables
 - Subqueries in `WHERE`
+- Subqueries in `SELECT`
 - Subqueries in `FROM`
 - `SELECT 1` with `EXISTS`
 - Subquery vs JOIN
@@ -163,7 +169,7 @@ Spring Boot Backend Development
 - Learn Indexes
 - Learn `EXPLAIN` and query execution plans
 - Learn Transactions & ACID
-- Learn `COALESCE()` and `NULLIF()`
+- Learn `CASE`, `COALESCE()` and `NULLIF()`
 - Learn CTEs
 - Learn Window Functions
 - Practice HackerRank SQL problems
