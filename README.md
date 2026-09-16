@@ -10,12 +10,12 @@
 | CRUD Operations | ✅ Completed |
 | Filtering & Operators | ✅ Completed |
 | Aggregate Functions | ✅ Completed |
-| Constraints | 🟡 In Progress |
+| Constraints | ✅ Completed |
 | Joins | 🟡 In Progress |
 | Subqueries | ✅ Completed |
 | Functions | ✅ Completed |
 | Normalization & Database Design | ✅ Completed |
-| Views & Indexes | 🟡 In Progress |
+| Views & Indexes | ⬜ Not Started |
 | Transactions & ACID | ⬜ Not Started |
 | Advanced SQL | 🟡 In Progress |
 | SQL Problem Solving | 🟡 In Progress |
@@ -47,7 +47,9 @@ sql-learning/
 ├── 20-full-join.sql
 ├── 21-cross-join.sql
 ├── 22-self-join.sql
-└── 23-subqueries.sql
+├── 23-subqueries.sql
+├── 24-update.sql
+└── 25-delete-truncate.sql
 
 ## 📚 Topics Covered
 
@@ -108,6 +110,8 @@ sql-learning/
 - `NOT IN` with subqueries
 - `EXISTS`
 - `NOT EXISTS`
+- `ANY`
+- `ALL`
 - Derived tables
 - Subqueries in `WHERE`
 - Subqueries in `SELECT`
@@ -128,6 +132,21 @@ sql-learning/
 - Transitive dependencies
 - Multivalued dependencies
 - Join dependencies
+- Updating existing rows with `UPDATE`
+- Updating multiple columns
+- Updating rows with conditions
+- Updating a limited number of rows
+- `ON UPDATE CURRENT_TIMESTAMP`
+- Primary key update constraints
+- Deleting specific rows with `DELETE`
+- Deleting rows using conditions
+- Deleting all rows with `DELETE`
+- Foreign key delete restrictions
+- `ON DELETE CASCADE`
+- `ON DELETE SET NULL`
+- `DELETE` and `AUTO_INCREMENT`
+- `TRUNCATE TABLE`
+- `DELETE` vs `TRUNCATE`
 
 ## 🛠️ Tools
 
@@ -163,7 +182,8 @@ Spring Boot Backend Development
 
 ## 🚀 Next Focus
 
-- Complete remaining JOIN practice
+- Continue JOIN practice through SQL problems
+- Continue LeetCode SQL 50
 - Strengthen subquery problem solving
 - Learn Views
 - Learn Indexes
@@ -173,8 +193,8 @@ Spring Boot Backend Development
 - Learn CTEs
 - Learn Window Functions
 - Practice HackerRank SQL problems
-- Practice LeetCode SQL 50
 - Prepare for SQL interviews
+- Start JDBC and continue SQL learning in parallel
 
 ## 🎯 Goal
 
