@@ -431,6 +431,56 @@ where exists (
 -- exists can stop checking once it finds the first matching row because
 -- finding one row is enough to make exists true.
 
+-- subquery operators: in, exists, any, all
+
+-- 1. in
+-- checks whether a value matches any value returned by the subquery.
+
+select *
+from employees
+where department in (
+    select department
+    from departments
+    where location = 'delhi'
+);
+
+
+-- 2. exists
+-- checks whether the subquery returns at least one row.
+-- commonly used with a correlated subquery.
+
+select *
+from employees e
+where exists (
+    select 1
+    from orders o
+    where o.employee_id = e.id
+);
+
+
+-- 3. any
+-- condition must be true for at least one value returned by the subquery.
+
+select *
+from employees
+where salary > any (
+    select salary
+    from employees
+    where department = 'it'
+);
+
+
+-- 4. all
+-- condition must be true for every value returned by the subquery.
+
+select *
+from employees
+where salary > all (
+    select salary
+    from employees
+    where department = 'it'
+);
+
 -- important notes for subqueries:
 -- 1. an independent subquery can be executed without depending on the outer query.
 -- 2. a correlated subquery depends on values from the outer query.
