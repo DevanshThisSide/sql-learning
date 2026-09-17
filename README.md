@@ -49,7 +49,9 @@ sql-learning/
 ├── 22-self-join.sql
 ├── 23-subqueries.sql
 ├── 24-update.sql
-└── 25-delete-truncate.sql
+├── 25-delete-truncate.sql
+├── 26-replace.sql
+└── 27-case-and-null-handling.sql
 
 ## 📚 Topics Covered
 
@@ -119,6 +121,14 @@ sql-learning/
 - `SELECT 1` with `EXISTS`
 - Subquery vs JOIN
 - `CASE`
+- `COALESCE()`
+- `NULLIF()`
+- Conditional logic with CASE
+- CASE with `UPDATE`
+- CASE with `ORDER BY`
+- CASE with aggregate functions
+- NULL handling with `IS NULL` and `IS NOT NULL`
+- Combining COALESCE() and NULLIF()
 - `UNION`
 - `UNION ALL`
 - 1NF
@@ -147,6 +157,11 @@ sql-learning/
 - `DELETE` and `AUTO_INCREMENT`
 - `TRUNCATE TABLE`
 - `DELETE` vs `TRUNCATE`
+- `REPLACE INTO`
+- Replacing existing rows
+- Inserting new rows with REPLACE INTO
+- Bulk REPLACE INTO ... SELECT
+- REPLACE INTO and foreign key considerations
 
 ## 🛠️ Tools
 
